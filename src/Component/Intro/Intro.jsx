@@ -46,10 +46,10 @@ export const Intro = () => {
           </div>
           <div className="blur" style={{
             background: '#C1f5ff',
-            top:'10rem',
+            top:'17rem',
             width:'21rem',
             height:'11rem' ,
-            left:'-9rem'           
+            left: '-9rem '          
             }}>
           </div>
             
