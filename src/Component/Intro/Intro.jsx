@@ -17,20 +17,31 @@ import thumbbup from '../../img/thumbup.png'
 export const Intro = () => {
   return (
     <div className='intro'>
+      {/* Right Side */}
         <div className="i-left">
-            <div className="i-name">
-                <span>Hey!</span>
-                <span>I am Fatemeh Bakhshi</span>
-                <span>Frontend Developer</span>
-                <span> with the high level of experince in web designing and web developing, producting the quality work.</span>
-            </div>
-        <button className="btn i-btn">Hire Me!</button>
-        <div className="i-icons">
-          <img src={GitHub} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <div className="i-name">
+              <span>Hi! I am</span>
+              <span>Fatemeh Bakhshi</span>
+              <span>I am a <span style={{color:'var(--orange)', fontSize:'2rem'}}>Frontend Developer</span></span>
+              <span>I am a motivated and versatile individual with <b>(3)years</b> of experince in web designing and web developing, producting the quality work and always eager to take on new challenges with a passion for learning. I am dedicated to delivering high-quality resulats with a positive attitude and a growth mindset,
+                I am ready to make a meaningful contribution and achieve great tings.
+                </span>
+          </div>
+          <button className="btn i-btn">Hire Me!</button>
+          <div className="i-icons">
+            <a href="./">
+              <img src={GitHub} alt="" />
+            </a>
+            <a href="./">
+            <img src={LinkedIn} alt="" />
+            </a>
+            <a href="/">
+            <img src={Instagram} alt="" />
+            </a>
+          </div>
+          
         </div>
-        </div>
+      {/* Left Side */}
         <div className="i-right">
           <img src={Profile} alt="" />
           <img src={imoji} alt="" />
@@ -51,10 +62,8 @@ export const Intro = () => {
             height:'11rem' ,
             left: '-9rem '          
             }}>
-          </div>
-            
-       </div>
-       
+          </div>     
+      </div>  
     </div>
   )
 }

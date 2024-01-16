@@ -24,14 +24,17 @@
    font-size: 2rem;
 }
 .i-name >:nth-child(3){
-    color: var(--orange);
-    font-weight: bold;
-    font-size: 3rem;
+    color: var(--black);
+    font-weight: 200;
+    font-size: 2rem;
  }
 .i-name>:nth-child(4){
     font-weight: 100;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--gray);
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .i-btn{
 width: 6rem;
@@ -39,14 +42,14 @@ height: 2rem;
 margin-top: 10px;
 }
 .i-icons{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     gap: 0;
 }
 .i-icons>*{
-    transform: scale(0.5);
+    transform: scale(0.3);
 }
-.i-icons:hover{
+.i-icons>*:hover{
     cursor: pointer;
 }
 .i-right{

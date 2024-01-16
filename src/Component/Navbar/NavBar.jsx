@@ -11,12 +11,12 @@ export const NavBar = () => {
         <div className="n-right">
             <div className="n-list">
                 <ul>
-                    <li>Home</li>
-                    <li>Eduction</li>
+                    <li>About</li>
                     <li>Services</li>
-                    <li>Experienc</li>
+                    <li>Experience</li>
                     <li>Portfolio</li>
-                    <li>Refrence</li>
+                    <li>Education</li>
+                    <li>Testimonial</li>
                 </ul>
             </div>
             <button className="btn n-btn">Contact</button>
