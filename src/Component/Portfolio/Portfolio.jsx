@@ -23,7 +23,6 @@ function Portfolio() {
       >
         <SwiperSlide>
           <img src={SideBar} alt="" />
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est libero et, reprehenderit vel consectetur, officia debitis dolorem quidem fugiat quos rerum at. Voluptas veniam officia et debitis consequuntur, corporis fugiat!</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
