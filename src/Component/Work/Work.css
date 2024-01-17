@@ -16,6 +16,8 @@
     box-shadow: var(--smboxShadow);
     top:2rem;
     background: white;
+      /* darkMode */
+         z-index: 2;
 }
 .w-mainCircle>*{
     position: absolute;
@@ -58,7 +60,8 @@
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
-    z-index: -1;
+      /* darkMode */
+  z-index: 1;
 }
 .blueCircle{
     background: #194988;

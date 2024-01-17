@@ -65,6 +65,7 @@ margin-top: 10px;
     transform: scale(0.8);
     top: -13%;
     z-index: -1;
+    /* Darlmode */
 }
 
 .i-right>:nth-child(2){

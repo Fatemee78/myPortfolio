@@ -2,6 +2,7 @@ import React from 'react'
 import './FloatingDiv.css'
 
  const FloatingDiv = ({img, txt1, txt2}) => {
+  
   return (
     <div className='floatingDiv'>
         <img src={img} alt="crown" />

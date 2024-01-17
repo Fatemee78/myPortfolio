@@ -5,15 +5,21 @@ import glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
 import Resume from './my cv 1.pdf'
+import { themeContext } from "../../Context";
+import  { useContext } from "react";
 
 
 
 const Services = () => {
+     // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className='services'>
         {/* leftside */}
         <div className="awesome">
-            <span>My Awesome</span>
+            <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
             <span>Services</span>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum,
             <br /> adipisci consectetur, non tempore ipsa iusto nihil rerum modi debitis eius.</span>
