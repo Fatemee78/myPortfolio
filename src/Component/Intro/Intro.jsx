@@ -10,11 +10,11 @@ import crown from '../../img/crown.png'
 import thumbbup from '../../img/thumbup.png'
 import { useContext } from "react";
 import { themeContext } from "../../Context";
-
-
-
+import {motion} from 'framer-motion'
 
 export const Intro = () => {
+const transition = {durantion: 2, type : 'spring'}
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -46,7 +46,12 @@ export const Intro = () => {
       {/* Left Side */}
         <div className="i-right">
           <img src={Profile} style={{zIndex: darkMode? '1' : ''}} alt="" />
-          <img src={imoji} alt="" />
+          <motion.img 
+          initial={{left:'-38%'}}
+          whileInView={{left:'-24%'}}
+          transition={transition}
+          src={imoji} alt="" />
+          
           <div style={{top:'-4%', left:'57%'}} >
             <FloatingDiv img={crown} txt1='Frontend' txt2='Developer'/>
           </div>

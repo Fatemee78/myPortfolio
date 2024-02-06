@@ -13,7 +13,7 @@ export const NavBar = () => {
         </div>
         <div className="n-right">
             <div className="n-list">
-                <ul>
+                <ul style={{listStyleType: "none"}}>
                     <Link spy={ true} to='Navbar' smooth={true} activeClass='activeClass'>
                         <li>About</li>
                     </Link>
