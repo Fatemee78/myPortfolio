@@ -35,7 +35,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="t-wrapper" id="testimonial">
+    <div className="t-wrapper" id="Testimonial">
       <div className="t-heading">
         <span>People who are </span>
         <span>Refrenced </span>

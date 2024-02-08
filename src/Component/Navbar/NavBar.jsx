@@ -14,7 +14,7 @@ export const NavBar = () => {
         <div className="n-right">
             <div className="n-list">
                 <ul style={{listStyleType: "none"}}>
-                    <Link spy={ true} to='Navbar' smooth={true} activeClass='activeClass'>
+                    <Link spy={ true} to='about' smooth={true} activeClass='activeClass'>
                         <li>About</li>
                     </Link>
                     <Link spy={ true} to='Services' smooth={true} >
