@@ -87,3 +87,31 @@ margin-top: 10px;
   filter: blur(72px);
 
 }
+@media screen and (max-width: 400px){
+    .intro{
+        flex-direction: column;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -5rem;
+    }
+    .i-right .blur{
+        display: none;
+    }
+    .i-right>:nth-child(2){
+        margin-left: 50px;
+    }
+    .i-right>:nth-child(3){
+        padding-right: 0px;
+        left: 90px;
+    }
+    .i-right>:nth-child(4){
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    .floating-div:nth-of-type(1){
+        top: -1rem !important;
+    }
+
+  
+}

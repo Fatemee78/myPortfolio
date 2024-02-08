@@ -27,16 +27,25 @@
     gap: 2rem;
     margin: 2rem;
     list-style-type: none;
+    cursor: pointer;
+
 }
 .n-list>ul>li{
     padding: 10px;
 }
 .n-list>ul>li:hover{
-    cursor: pointer;
     color: var(--orange);
     border-bottom:2px solid var(--orange) ;
 }
 .n-btn{
     flex:2;
     
+}
+@media screen and (max-width: 400px){
+    .n-list{
+        display: none;
+    }
+    .n-btn{
+        display: none;
+    }
 }

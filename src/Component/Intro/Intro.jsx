@@ -18,7 +18,7 @@ const transition = {durantion: 2, type : 'spring'}
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className='intro'>
+    <div className='intro' id='about'>
       {/* Right Side */}
         <div className="i-left">
           <div className="i-name">
@@ -52,12 +52,24 @@ const transition = {durantion: 2, type : 'spring'}
           transition={transition}
           src={imoji} alt="" />
           
-          <div style={{top:'-4%', left:'57%'}} >
+          <motion.div
+          initial={{top: '-4%', left: '74%'}}
+          whileInView={{left: '58%'}}
+          transition={transition}
+           style={{top:'-4%', left:'57%'}} 
+           className='floating-div'
+           >
             <FloatingDiv img={crown} txt1='Frontend' txt2='Developer'/>
-          </div>
-          <div  style={{top:'18rem', left:'0rem'}}>
+          </motion.div>
+          <motion.div  
+          initial={{top: '19rem', left: '18rem'}}
+          whileInView={{left: '0rem'}}
+          transition={transition}
+          style={{top:'18rem', left:'0rem'}}
+          className='floating-div'
+          >
             <FloatingDiv img={thumbbup} txt1='Creative' txt2='Developer'/>
-          </div>
+          </motion.div>
           {/* BlurItem */}
           <div className="blur" style={{
             background: 'rgb(238 210 255'}}>
