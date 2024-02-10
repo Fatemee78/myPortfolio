@@ -49,6 +49,9 @@
 }
 .testimonial>span{
     color: var(--gray);
+    font-size: 15px;
+    align-items: center;
+    text-align: justify;
 }
 
 

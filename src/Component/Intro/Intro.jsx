@@ -23,7 +23,7 @@ const transition = {durantion: 2, type : 'spring'}
         <div className="i-left">
           <div className="i-name">
               <span style={{color: darkMode? 'white' : ''}}>Hi! I am</span>
-              <span style={{color: darkMode? 'white' : ''}}>Fatemeh Bakhshi</span>
+              <span style={{color: darkMode? 'white' : ''}}>Fatemeh Rezwani</span>
               <span style={{color: darkMode? 'white' : ''}}>I am a <span style={{color:'var(--orange)', fontSize:'2rem'}}>Frontend Developer</span></span>
               <span>I am a motivated and versatile individual with <b>(3)years</b> of experince in web designing and web developing, producting the quality work and always eager to take on new challenges with a passion for learning. I am dedicated to delivering high-quality resulats with a positive attitude and a growth mindset,
                 I am ready to make a meaningful contribution and achieve great tings.

@@ -18,7 +18,7 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
 
   //motion
-  const transition = {durantion: 1, type : 'spring'}
+  const transition = {durantion: 2, type : 'spring'}
 
 
   return (
@@ -27,8 +27,7 @@ const Services = () => {
         <div className="awesome">
             <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
             <span>Services</span>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum,
-            <br /> adipisci consectetur, non tempore ipsa iusto nihil rerum modi debitis eius.</span>
+            <span>Ever since I was young, coding has always fascinated me. As soon as I graduated from college with my degree in Computer Science, it became clear to me that this was what I wanted to do – create beautiful and functional websites through lines of code.I started off at a small startup company where my skills were put to test right away. Even though there were only few people on the team, we worked tirelessly towards our goal of creating innovative products that would make an impact in people's lives. My role involved designing user interfaces (UI) and writing clean front-end codes using HTML/CSS/JavaScript while collaborating closely with back-end developers.</span>
             <a href={Resume} download>  
                 <div className="btn s-btn">Download CV</div>
             </a>

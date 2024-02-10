@@ -90,6 +90,8 @@ margin-top: 10px;
 @media screen and (max-width: 400px){
     .intro{
         flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
     }
     .i-right{
         transform: scale(0.8);
@@ -110,7 +112,7 @@ margin-top: 10px;
         margin-top: 50px;
     }
     .floating-div:nth-of-type(1){
-        top: -1rem !important;
+        top: -6rem !important;
     }
 
   

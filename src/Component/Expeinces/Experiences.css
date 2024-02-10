@@ -42,3 +42,13 @@
 .achivement span:nth-child(3){
     color: var(--orange);
 }
+@media screen and (max-width: 480px){
+    .expe{
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    .achivement{
+        margin: 0;
+    }
+}
