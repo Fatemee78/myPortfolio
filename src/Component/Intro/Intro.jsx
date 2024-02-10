@@ -31,17 +31,16 @@ const transition = {durantion: 2, type : 'spring'}
           </div>
           <button className="btn i-btn">Hire Me!</button>
           <div className="i-icons">
-            <a href="./">
+            <a href="https://github.com/f-Bakhshi">
               <img src={GitHub} alt="" />
             </a>
-            <a href="./">
+            <a href="https://www.linkedin.com/in/ftmh-bakhshi/">
             <img src={LinkedIn} alt="" />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/azadeh.nfts?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==">
             <img src={Instagram} alt="" />
             </a>
           </div>
-          
         </div>
       {/* Left Side */}
         <div className="i-right">
