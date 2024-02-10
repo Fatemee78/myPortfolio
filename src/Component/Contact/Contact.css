@@ -6,6 +6,16 @@
       /* scroll */
   padding-top: 3rem;
 }
+.w-left .awesome{
+    width:auto;
+   
+}
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-size: rem;
+    font-weight: bold;
+
+}
 
 .c-right{
     display: flex;
