@@ -46,6 +46,7 @@
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
+    margin-bottom: 25px;
 }
 .testimonial>span{
     color: var(--gray);
