@@ -20,8 +20,7 @@ function Work() {
         <div className="awesome">
             <span style={{ color: darkMode ? "white" : "" }}>Works for These</span>
             <span>Brands & Companies</span>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum,
-            <br /> adipisci consectetur, non tempore ipsa iusto nihil rerum modi debitis eius.</span>
+            <span>I have been working on different projects ranging from small personal websites to larger, more complex web applications using JavaScript and JavaScript Frameworks like ReactJs, and VueJs as a frontend developer, for the past three years for these brands and companies.</span>
             <div className="btn s-btn">Hire Me</div>
             <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
         </div>
