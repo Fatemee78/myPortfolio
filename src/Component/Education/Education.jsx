@@ -15,7 +15,7 @@ function Education() {
   const darkMode = theme.state.darkMode;
   
   return (
-    <div className='works' id="Experience">
+    <div className='works' id="Education">
         {/* left side */}
         <div className="awesome">
             <span style={{ color: darkMode ? "white" : "" }}>Certification</span>
