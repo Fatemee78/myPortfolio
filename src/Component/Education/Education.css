@@ -53,7 +53,9 @@
     background: white;
 }
 .w-secCircle>img{
-    transform: scale(0.5);
+    height:400px;
+    width: 400px;
+    transform: scale(0.2);
 }
 .w-backCircle{
     position: absolute;

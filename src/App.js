@@ -6,10 +6,10 @@ import { NavBar } from "./Component/Navbar/NavBar.jsx";
 import Portfolio from './Component/Portfolio/Portfolio.jsx';
 import Services from './Component/Services/Services.jsx';
 import Testimonial from './Component/Testimonials/Testimonial.jsx';
-import Work from './Component/Work/Work.jsx';
 import Footer from './Component/Footer/Footer.jsx'
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import Education from './Component/Education/Education.jsx';
 
 function App() {
   const theme = useContext(themeContext);
@@ -25,8 +25,8 @@ function App() {
       <NavBar/>
       <Intro/>
       <Services/>
+      <Education/>
       <Experiences/>
-      <Work/>
       <Portfolio/>
       <Testimonial/>
       <Contact/>

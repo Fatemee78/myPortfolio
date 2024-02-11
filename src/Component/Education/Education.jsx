@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
-import './Work.css'
-import upWork from '../../img/Upwork.png'
-import Fiverr from '../../img/fiverr.png'
-import Amazon from '../../img/amazon.png'
-import shopify from '../../img/Shopify.png'
-import Facebook from '../../img/Facebook.png'
+import './Education.css'
+import SoloLearn from '../../img/solo learn.png'
+import FreeCodeCamp from '../../img/free code camp.png'
+import HeratUniversity from '../../img/herat university.png'
+import CodeToInspire from '../../img/code to inspire.png'
+import ITCH from '../../img/itch.png'
 import { themeContext } from "../../Context";
 import {motion} from 'framer-motion'
 
 
-function Work() {
+function Education() {
     // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -18,9 +18,11 @@ function Work() {
     <div className='works' id="Experience">
         {/* left side */}
         <div className="awesome">
-            <span style={{ color: darkMode ? "white" : "" }}>Works for These</span>
-            <span>Brands & Companies</span>
-            <span>I have been working on different projects ranging from small personal websites to larger, more complex web applications using JavaScript and JavaScript Frameworks like ReactJs, and VueJs as a frontend developer, for the past three years for these brands and companies.</span>
+            <span style={{ color: darkMode ? "white" : "" }}>Certification</span>
+            <span>Education & Awards</span>
+            <span>Ever since I was young, coding has always fascinated me. As soon as I graduated from college with my 
+                degree in Computer Science, it became clear to me that this was what I wanted to do – create beautiful and functional websites through lines of code.
+                </span>
             <div className="btn s-btn">Hire Me</div>
             <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
         </div>
@@ -33,15 +35,15 @@ function Work() {
             transition={{duration: 3.5, type: 'spring'}}
             className="w-mainCircle">
                 <div className="w-secCircle">
-                    <img src={upWork} alt="" /></div>
+                    <img src={SoloLearn} alt="" /></div>
                 <div className="w-secCircle">
-                    <img src={Fiverr} alt="" /></div>
+                    <img src={FreeCodeCamp} alt="" /></div>
                 <div className="w-secCircle">
-                    <img src={Amazon} alt="" /></div>
+                    <img src={HeratUniversity} alt="" /></div>
                 <div className="w-secCircle">
-                    <img src={shopify} alt="" /></div>
+                    <img src={CodeToInspire} alt="" /></div>
                 <div className="w-secCircle">
-                    <img src={Facebook} alt="" /></div>
+                    <img src={ITCH} alt="" /></div>
             </motion.div>
             <div className="w-backCircle blueCircle"></div>
             <div className="w-backCircle yellowCircle"></div>
@@ -51,4 +53,4 @@ function Work() {
   )
 }
 
-export default Work
+export default Education
