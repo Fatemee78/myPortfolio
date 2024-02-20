@@ -30,22 +30,34 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img className="swiper-slide" src={PersonalWeb} alt="" />
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <img className="swiper-slide" src={PersonalWeb} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="swiper-slide" src={Store} alt="" />
+          <a href="https://shopify-mwo7li7p1-f-bakhshis-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
+           <img className="swiper-slide" src={Store} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="swiper-slide" src={HOC} alt="" />
+          <a href="https://f-bakhshi.github.io/resturant/" target="_blank" rel="noopener noreferrer">
+            <img className="swiper-slide" src={HOC} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="swiper-slide" src={School} alt="" />
+          <a href="https://f-bakhshi.github.io/Mini-online-School-website/" target="_blank" rel="noopener noreferrer">
+            <img className="swiper-slide" src={School} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="swiper-slide" src={dashboard} alt="" />
+          <a href="https://f-bakhshi.github.io/Admin-dashboard/" target="_blank" rel="noopener noreferrer">
+            <img className="swiper-slide" src={dashboard} alt="" />
+           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="swiper-slide" src={Weather} alt="" />
+          <a href="https://github.com/f-Bakhshi/Weather-app" target="_blank" rel="noopener noreferrer">
+            <img className="swiper-slide" src={Weather} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
