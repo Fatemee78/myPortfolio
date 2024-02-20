@@ -4,7 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png'
 import glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
-import Resume from './my cv 1.pdf'
+import Resume from './my cv.pdf'
 import { themeContext } from "../../Context";
 import  { useContext } from "react";
 import {motion} from 'framer-motion'
