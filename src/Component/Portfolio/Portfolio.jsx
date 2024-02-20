@@ -30,7 +30,7 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://my-portfolio-4op3iuf2c-f-bakhshis-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img className="swiper-slide" src={PersonalWeb} alt="" />
           </a>
         </SwiperSlide>
